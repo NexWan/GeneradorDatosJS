@@ -19,10 +19,13 @@
         </div>
     </header>
     <main>
-        <div class="container m-auto p-4 bg-zinc-100 max-w-5xl rounded-lg border-solid shadow-2xl">
+        <div class="grid grid-flow-row container m-auto p-4 bg-zinc-100 max-w-5xl rounded-lg border-solid shadow-2xl justify-center items-center">
             <h1 class="text-xl text-center py-4">Selecciona los datos a generar</h1>
-            <div class="container" id="mainContent">
-
+            <div class="container flex space-x-4 py-2" id="mainContent">
+            </div>
+            <button id="okButton" class="my-2 mx-auto rounded-full w-16 h-8 bg-blue-400 text-white font-bold text-center self-center">OK</button>
+            <div class="container py-1" id="resultContainer">
+                <h2 class="text-lg text-center ">Resultado</h2>
             </div>
         </div>
     </main>
